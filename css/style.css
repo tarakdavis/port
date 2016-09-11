@@ -1,5 +1,14 @@
 * {
   font-family: 'Raleway', sans-serif;
+  color: #23201B;
+}
+
+#me {
+  width:125px;
+  height:125px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .container {
@@ -17,12 +26,17 @@ h4 {
   font-family: 'Raleway', sans-serif;
 }
 
+#rightcontent {
+    background-color: #EEF1F9;
+    overflow: auto;
+}
+
 .header {
   color: #E7EAE5;
   text-align: center;
 }
 
-.col-md-3.col-xl-3.col-sm-3.col-lg-3{
+#leftcontent {
   margin-left: none;
 }
 
