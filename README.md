@@ -1,2 +1,2 @@
-# port
-visit tarakdavis.github.io to view my portfolio in your web browser!
+# portfolio
+visit https://tarakdavis.github.io/ to view my portfolio in your web browser!
