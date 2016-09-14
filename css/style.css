@@ -26,8 +26,10 @@ h3 {
 
 #rightcontent {
     background-color: #EEF1F9;
-    overflow: auto;
+    overflow-y: scroll;
     opacity: 0.85;
+    height: 500px;
+    overflow: auto;
 }
 
 #thebeef {
