@@ -3,13 +3,6 @@
   color: #23201B;
 }
 
-#me {
-  width:125px;
-  height:125px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
 
 .container {
   margin-top: 5px;
@@ -26,9 +19,28 @@ h4 {
   font-family: 'Raleway', sans-serif;
 }
 
+h3 {
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+}
+
 #rightcontent {
     background-color: #EEF1F9;
     overflow: auto;
+    opacity: 0.85;
+}
+
+#thebeef {
+
+}
+
+#me {
+  width:125px;
+  height:125px;
+  border-radius: 50%;
+  display: block;
+  opacity: 1;
+  vertical-align: center;
 }
 
 .header {
