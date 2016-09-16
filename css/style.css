@@ -3,6 +3,12 @@
   color: #23201B;
 }
 
+#trees {
+  background-image: url('../images/trees.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
 
 .container {
   margin-top: 5px;
@@ -21,19 +27,28 @@ h4 {
 
 h3 {
   font-family: 'Lobster', sans-serif;
-  text-align: center;
 }
 
 #rightcontent {
     background-color: #EEF1F9;
-    overflow-y: scroll;
+    overflow-y: auto;
     opacity: 0.85;
     height: 500px;
-    overflow: auto;
 }
 
 #thebeef {
 
+}
+
+/*ul>li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}*/
+
+.fa {
+  color: #E7EAE5;
 }
 
 #me {
@@ -42,7 +57,9 @@ h3 {
   border-radius: 50%;
   display: block;
   opacity: 1;
-  vertical-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -50,8 +67,15 @@ h3 {
   text-align: center;
 }
 
+#footer {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 #leftcontent {
-  margin-left: none;
+  height:100%;
 }
 
 .site-wrapper {
@@ -64,4 +88,17 @@ h3 {
 
 #needspadding {
   padding-top: 1cm;
+}
+
+ul>li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social>ul {
+  text-align: center;
+  padding: 0 !important;
+  transform: translate(0,0);
 }
