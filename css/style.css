@@ -30,7 +30,7 @@ h3 {
     background-color: #EEF1F9;
     opacity: 0.85;
     height: 100%;
-    position: relative;
+    position: sticky;
     width: 60%;
     top: 100%;
     left: 10%;
