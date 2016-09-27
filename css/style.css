@@ -31,13 +31,13 @@ h3 {
     opacity: 0.85;
     height: 100%;
     position: relative;
-    width: 60%;
+    width: 55%;
     left: 5%;
     float: right;
 }
 #leftcontent {
     height: 100%;
-    width: 40%;
+    width: 45%;
     position: fixed;
     padding-top: 1cm;
 }
@@ -84,7 +84,7 @@ ul>li {
     list-style: none;
     text-align: center;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 35px;
     padding: 3px;
 }
 ul {
