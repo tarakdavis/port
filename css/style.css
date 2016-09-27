@@ -7,12 +7,16 @@
   background-image: url('../images/trees.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: fixed;
 }
 
 .container {
   margin-top: 5px;
   width: 100%;
+}
+
+#everything {
+  height: 100%;
 }
 
 h1 {
@@ -33,19 +37,10 @@ h3 {
     background-color: #EEF1F9;
     overflow-y: auto;
     opacity: 0.85;
-    height: 500px;
+    height: 600px;
+    position: relative;
+    float: right;
 }
-
-#thebeef {
-
-}
-
-/*ul>li {
-  display: inline-block;
-  list-style: none;
-  text-align: center;
-  margin: 0 auto;
-}*/
 
 .fa {
   color: #E7EAE5;
@@ -60,6 +55,7 @@ h3 {
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
 
 .header {
@@ -67,15 +63,9 @@ h3 {
   text-align: center;
 }
 
-#footer {
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 #leftcontent {
   height:100%;
+  position: fixed;
 }
 
 .site-wrapper {
@@ -135,18 +125,19 @@ textarea {
 
 [type="submit"] {
   width: 25%;
-  background:#23201B;
+  background: transparent;
   border-radius:5px;
-  border:0;
+  border-color: #23201B;
+  /*border:0;*/
   cursor:pointer;
-  color:white;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:7px;
+  padding-bottom:7px;
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
+  margin-bottom: 1cm;
 }
 
 [type="submit"]:hover {
-  background:#615C60;
+  color:white;
 }
