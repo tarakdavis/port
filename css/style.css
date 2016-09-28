@@ -31,13 +31,13 @@ h3 {
     opacity: 0.85;
     height: 100%;
     position: relative;
-    width: 55%;
+    width: 60%;
     left: 5%;
     float: right;
 }
 #leftcontent {
     height: 100%;
-    width: 45%;
+    width: 40%;
     position: fixed;
     padding-top: 1cm;
 }
@@ -51,6 +51,7 @@ h3 {
     border-style: solid;
     opacity: 1;
     border-width: medium;
+    border-radius: 3em;
 }
 #ports {
     margin-bottom: 15px;
