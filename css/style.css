@@ -44,6 +44,13 @@ h3 {
 }
 .fa {
     color: #E7EAE5;
+    text-rendering: auto;
+}
+.fa:hover {
+    color: white;
+}
+#proj {
+  padding-left: 25px;
 }
 #portfolios {
     width: 286px;
@@ -86,8 +93,9 @@ padding:30px;
     color: #E7EAE5;
     text-align: center;
 }
-#needspadding {
+#about, #projects, #contact {
     padding-top: 1cm;
+    padding-bottom: 0.25cm;
 }
 ul>li {
     display: inline-block;
