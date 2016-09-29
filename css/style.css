@@ -34,6 +34,7 @@ h3 {
     width: 60%;
     left: 5%;
     float: right;
+    letter-spacing: -0.05em;
 }
 #leftcontent {
     height: 100%;
@@ -45,27 +46,35 @@ h3 {
     color: #E7EAE5;
 }
 #portfolios {
-    width: 260px;
-    height: 170px;
+    width: 286px;
+    height: 187px;
     border-color: #23201B;
     border-style: solid;
     opacity: 1;
     border-width: medium;
-    border-radius: 3em;
 }
 #ports {
     margin-bottom: 15px;
 }
+
+/*#portfolios:hover {
+opacity:0.6;
+text-align:justify;
+font-size:16px;
+font-weight:700;
+padding:30px;
+}*/
+
 #me {
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     display: block;
     opacity: 1;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 #descriptionrt {
     text-align: right;
@@ -97,12 +106,21 @@ ul {
     position: fixed;
     bottom: 5px;
 }
+#copyright {
+  font-size: 10px;
+  text-align: center;
+  padding: 0 !important;
+  position: fixed;
+  bottom: 5px;
+  margin: 0 auto;
+}
 form {
     max-width: 420px;
     margin: 25px auto;
 }
 .feedback-input {
     color: white;
+    opacity: 1;
     font-weight: bold;
     border-radius: 0;
     line-height: 22px;
