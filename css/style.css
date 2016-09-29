@@ -170,12 +170,16 @@ textarea {
       font-size: 22px;
     }
     h1 {
-      font-size: 48px;
+      font-size: 42px;
     }
     h2{
-      font-size: 30px;
+      font-size: 22px;
     }
     #rightcontent {
       font-size: 12px;
+      width: 70%;
+    }
+    #leftcontent{
+      width: 30%;
     }
 }
