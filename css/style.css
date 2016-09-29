@@ -169,4 +169,13 @@ textarea {
     ul>li {
       font-size: 22px;
     }
+    h1 {
+      font-size: 48px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    #rightcontent {
+      font-size: 12px;
+    }
 }
