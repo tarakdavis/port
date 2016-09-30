@@ -110,15 +110,17 @@ ul {
     position: fixed;
     bottom: 5px;
 }
-#copyright {
-  font-size: 10px;
+#minis {
+  color: #23201B;
+}
+#contactinfo {
   text-align: center;
-  padding: 0 !important;
-  position: fixed;
-  bottom: 5px;
   margin: 0 auto;
 }
-form {
+#name {
+  font-weight: bold;
+}
+/*form {
     max-width: 420px;
     margin: 25px auto;
 }
@@ -159,7 +161,7 @@ textarea {
 }
 [type="submit"]:hover {
     color: white;
-}
+}*/
 @media only screen and (max-width: 500px) {
     #portfolios {
       width: 75%;
