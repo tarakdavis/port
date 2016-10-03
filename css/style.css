@@ -1,5 +1,5 @@
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #23201B;
 }
 #trees {
@@ -50,7 +50,7 @@ h3 {
     color: white;
 }
 #proj {
-  padding-left: 25px;
+    padding-left: 25px;
 }
 #portfolios {
     width: 286px;
@@ -63,11 +63,9 @@ h3 {
 #ports {
     margin-bottom: 15px;
 }
-
 #portfolios:hover {
-opacity: 1;
+    opacity: 1;
 }
-
 #me {
     width: 145px;
     height: 145px;
@@ -111,96 +109,53 @@ ul {
     bottom: 5px;
 }
 #minis {
-  color: #23201B;
+    color: #23201B;
 }
 #contactinfo {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 #name {
-  font-weight: bold;
-}
-/*form {
-    max-width: 420px;
-    margin: 25px auto;
-}
-.feedback-input {
-    color: white;
-    opacity: 1;
     font-weight: bold;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: transparent;
-    border: 2px solid #23201B;
-    transition: all 0.3s;
-    padding: 7px;
-    margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
-    outline: 0;
 }
-.feedback-input:focus {
-    border: 2px solid #23201B;
-}
-textarea {
-    height: 150px;
-    line-height: 150%;
-    resize: vertical;
-}
-[type="submit"] {
-    width: 25%;
-    background: transparent;
-    border-color: #23201B;
-    cursor: pointer;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
-    margin-bottom: 1cm;
-}
-[type="submit"]:hover {
-    color: white;
-}*/
 @media only screen and (max-width: 500px) {
     #portfolios {
-      width: 75%;
-      height: 75%;
-      margin-top: 0.3em;
+        width: 75%;
+        height: 75%;
+        margin-top: 0.3em;
     }
     ul>li {
-      font-size: 20px;
-      display: block;
-      text-align: left;
+        font-size: 20px;
+        display: block;
+        text-align: left;
     }
     h1 {
-      font-size: 42px;
+        font-size: 42px;
     }
-    h2{
-      font-size: 20px;
+    h2 {
+        font-size: 20px;
     }
     #rightcontent {
-      font-size: 12px;
-      width: 70%;
+        font-size: 12px;
+        width: 70%;
     }
-    #leftcontent{
-      width: 30%;
+    #leftcontent {
+        width: 30%;
     }
 }
-@media only screen and (min-width : 321px) {
-  #portfolios {
-    width: 90%;
-    height: 90%;
-    margin-top: 0.3em;
-  }
-  ul>li {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 42px;
-  }
-  h2{
-    font-size: 20px;
-  }
-
-}
+/*@media only screen and (min-width: 321px) {
+    #portfolios{
+        width: 90%;
+        height: 90%;
+        margin-top: 0.3em;
+    }
+    ul>li {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}*/
