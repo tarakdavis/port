@@ -69,8 +69,8 @@ opacity: 1;
 }
 
 #me {
-    width: 130px;
-    height: 130px;
+    width: 145px;
+    height: 145px;
     border-radius: 50%;
     display: block;
     opacity: 1;
@@ -186,4 +186,14 @@ textarea {
     #leftcontent{
       width: 30%;
     }
+}
+@media only screen and (min-width : 321px) {
+  #portfolios {
+    width: 75%;
+    height: 75%;
+    margin-top: 0.3em;
+  }
+  ul>li {
+    position: fixed;
+  }
 }
