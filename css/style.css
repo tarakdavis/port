@@ -189,11 +189,18 @@ textarea {
 }
 @media only screen and (min-width : 321px) {
   #portfolios {
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
     margin-top: 0.3em;
   }
   ul>li {
-    position: fixed;
+    font-size: 20px;
   }
+  h1 {
+    font-size: 42px;
+  }
+  h2{
+    font-size: 20px;
+  }
+
 }
