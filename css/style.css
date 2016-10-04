@@ -165,7 +165,7 @@ ul {
     #leftcontent {
         width: 30%;
     }
-    span.text-content{
+    #proj:hover span.text-content {
       opacity: 0;
     }
 }
