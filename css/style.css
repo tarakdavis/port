@@ -143,9 +143,9 @@ ul {
 }
 @media only screen and (max-width: 500px) {
     #portfolios {
-        width: 75%;
-        height: 75%;
-        margin-top: 0.3em;
+        width: 85%;
+        height: 85%;
+        margin-top: 0.5em;
     }
     ul>li {
         font-size: 20px;
