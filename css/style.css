@@ -165,6 +165,11 @@ ul {
     #leftcontent {
         width: 30%;
     }
+    span.text-content{
+      width: 75%;
+      height: 75%;
+      margin-top: 0.3em;
+    }
 }
 
 /*@media only screen and (min-width: 321px) {
