@@ -63,8 +63,31 @@ h3 {
 #ports {
     margin-bottom: 15px;
 }
-#portfolios:hover {
-    opacity: 1;
+span.text-content {
+    background: #23201B;
+    cursor: pointer;
+    display: table;
+    width: 286px;
+    height: 187px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content span {
+    display: table;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    color: #E7EAE5;
+}
+#proj:hover span.text-content {
+    opacity: 0.90;
 }
 #me {
     width: 145px;
@@ -143,6 +166,7 @@ ul {
         width: 30%;
     }
 }
+
 /*@media only screen and (min-width: 321px) {
     #portfolios{
         width: 90%;
