@@ -69,6 +69,7 @@ span.text-content {
     display: table;
     width: 286px;
     height: 187px;
+    vertical-align: middle;
     position: absolute;
     top: 0;
     opacity: 0;
@@ -78,7 +79,7 @@ span.text-content {
     transition: opacity 500ms;
 }
 span.text-content span {
-    display: table;
+    display: table-cell;
     padding: 8px;
     text-align: center;
     vertical-align: middle;
