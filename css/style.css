@@ -142,7 +142,7 @@ ul {
 #name {
     font-weight: bold;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     #portfolios {
         width: 85%;
         height: 85%;
